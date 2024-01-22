@@ -8,8 +8,16 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.b{
+  font-weight: bold;
+}
+
 .d-flex{
   display: flex;
+}
+
+.sp-btw{
+  justify-content: space-between;
 }
 
 .d-wrap{
@@ -17,13 +25,46 @@ body{
 }
 
 .top-distance{
-  padding-top: 60px;
+  padding-top: 130px;
+}
+
+.j-end{
+  justify-content: flex-end;
 }
 
 .container{
   width: 1435px;
   max-width: 98%;
   margin: 0 auto;
+}
+
+header{
+  background-color: #FF6900;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header ul{
+  width: 400px;
+}
+
+header ul li{
+  list-style: none;
+  align-self: center;
+  padding: 0 15px 0 0;
+  cursor: pointer;
+}
+
+.logo{
+  width: 140px;
+}
+
+.menu li{
+  padding: 0 0 0 10px;
 }
 
 .item{
@@ -68,6 +109,11 @@ body{
   background-color: white;
 }
 
+.cuore:hover{
+  color: red;
+  cursor: pointer;
+}
+
 .flag{
   font-size: 0.8rem;
   color: white;
@@ -86,6 +132,7 @@ body{
 .info-item{
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .caratteristiche{
@@ -101,4 +148,27 @@ body{
   color: black;
   font-weight: lighter;
   text-decoration: line-through;
+}
+
+footer{
+  background-color: #1A1A1A;
+  color: white;
+  padding: 20px 0;
+  line-height: 30px;
+}
+
+.info span{
+  font-size: .8rem;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.social{
+  text-align: center;
+}
+
+.social i{
+  font-size: 1.5rem;
+  padding-left: 10px;
+  cursor: pointer;
 }
